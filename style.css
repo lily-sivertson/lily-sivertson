@@ -1,6 +1,12 @@
 /* ----------------------------------------------------
    1. GLOBAL & DEFAULT STYLES 
    ---------------------------------------------------- */
+
+:root {
+  --primary-pink: #ffa4b9;
+}
+
+
 /* Styles applied directly to HTML tags */
 body { /*
   background-color: #f4f4f4;    Sets the page background color 
@@ -18,8 +24,10 @@ body { /*
 
 /* classes */
 
-.rounded_image {
-  
+#pfp {
+  border-radius: 10px;
+  outline: 4px dashed var(--primary-pink);
+  outline-offset: 8px;
 }
 
 /* ----------------------------------------------------
