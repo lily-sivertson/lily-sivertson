@@ -24,6 +24,13 @@ body {
 }
 
 
+.content-box {
+  background-color:var(--primary2);
+  width: 70% ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 
 /* classes */
@@ -33,7 +40,7 @@ body {
   display: flex;
   gap: 40px;
   border-radius: 20px;
-  flex-direction: column;
+  
 
 }
 
