@@ -11,7 +11,6 @@
 
 /* Styles applied directly to HTML tags */
 body { 
-  display: flex;
   background-color: var(--primary-pink);
   align-items: center;
   justify-content: center;
@@ -39,7 +38,8 @@ body {
 }
 
 .flex-child {
-  align-content: center;
+  align-items: center;
+  justify-content: center;
   flex: 1; 
   padding: 15px;
 
