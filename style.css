@@ -1,1 +1,61 @@
+/* ----------------------------------------------------
+   1. GLOBAL & DEFAULT STYLES 
+   ---------------------------------------------------- */
+/* Styles applied directly to HTML tags */
+body { /*
+  background-color: #f4f4f4;    Sets the page background color 
+  font-family: Arial, sans-serif;  Sets the default font 
+  color: #333333;               Sets the default text color 
+  margin: 0;                   Removes default browser spacing 
+  padding: 0; */
+}
+
+/*h1 {
+  font-size: 32px;
+  text-align: center;         
+} */
+
+
+/* classes */
+
+.rounded_image {
+  
+}
+
+/* ----------------------------------------------------
+   2. CLASS SELECTORS 
+   ---------------------------------------------------- */
+/* Used to style specific elements. In CSS, classes start with a dot (.) */
+.main-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;          /* Space inside the button */
+  border: none;
+  border-radius: 5px;          /* Rounds the corners */
+  cursor: pointer;             /* Changes cursor to a hand on hover */
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;            /* Adds spacing between lines of text */
+}
+
+/* ----------------------------------------------------
+   3. ID SELECTORS
+   ---------------------------------------------------- */
+/* Used for a single, unique element on the page. IDs start with a hashtag (#) */
+#main-header {
+  background-color: #007bff;
+  padding: 20px;
+}
+
+/* ----------------------------------------------------
+   4. HOVER STATES & PSEUDO-CLASSES
+   ---------------------------------------------------- */
+/* Changes styles when a user interacts with an element */
+.main-button:hover {
+  background-color: #e64a19;   /* Darkens the button when hovered */
+}
+
+
 
