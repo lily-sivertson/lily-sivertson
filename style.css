@@ -4,25 +4,50 @@
 
 :root {
   --primary-pink: #ffa4b9;
+  --primary2: #f1e7e7;
+
 }
 
 
 /* Styles applied directly to HTML tags */
-body { /*
-  background-color: #f4f4f4;    Sets the page background color 
+body { 
+  display: flex;
+  background-color: var(--primary-pink);
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  /*background-color: #f4f4f4;    Sets the page background color 
   font-family: Arial, sans-serif;  Sets the default font 
   color: #333333;               Sets the default text color 
   margin: 0;                   Removes default browser spacing 
   padding: 0; */
 }
 
-/*h1 {
-  font-size: 32px;
-  text-align: center;         
-} */
+
 
 
 /* classes */
+.flex-container {
+  background-color: var(--primary2);
+  width: 70%;
+  display: flex;
+  gap: 40px;
+  border-radius: 20px;
+
+}
+
+.flex-child {
+  align-content: center;
+  flex: 1; 
+  padding: 15px;
+
+}
+
+
+
+
+/* id selectors */
 
 #pfp {
   border-radius: 10px;
