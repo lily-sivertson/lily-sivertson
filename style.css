@@ -2,7 +2,7 @@
 :root {
   --primary-pink: #ffa4b9;
   --primary2: #f1e7e7;
-  --primary3: rgba(55, 54, 54, 0.916);
+  --primary3: rgba(72, 62, 65, 0.916);
   
 }
 
@@ -14,8 +14,9 @@ body {
   margin: 0;
   padding:0 ;
   display: flex;
-  background-image: url("placeholder-bg.jpg");
+  background-image: linear-gradient(#f67cab50,#e2458752) url("placeholder-bg.png");
   background-size: cover;
+  background-position: center;
   justify-content: center;
   align-items: center;
   color: var(--primary2);
