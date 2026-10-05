@@ -3,17 +3,11 @@
   --primary-pink: #ffa4b9;
   --primary2: #f1e7e7;
   --primary3: rgba(51, 51, 52, 0.727);
-
+  
 }
 
-@font-face {
-  font-family: 'Indie Flower';
-  src: url('./Indie_Flower/IndieFlower-Regular.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
+/*font-family: "Hachimaru Pop", sans-serif;*/
 
 /* Styles applied directly to HTML tags */
 body { 
@@ -28,7 +22,7 @@ body {
 }
 
 p {
-  font-family: 'Indie Flower';
+  font-family: "Indie Flower", cursive;
 }
 
 
