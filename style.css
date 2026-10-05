@@ -1,35 +1,31 @@
-/* ----------------------------------------------------
-   1. GLOBAL & DEFAULT STYLES 
-   ---------------------------------------------------- */
 
 :root {
   --primary-pink: #ffa4b9;
   --primary2: #f1e7e7;
+  --primary3: rgba(76, 76, 77, 0.727);
 
 }
 
 
 /* Styles applied directly to HTML tags */
 body { 
+  margin: 0;
+  padding:0 ;
   display: flex;
   background-color: var(--primary-pink);
-  align-items: center;
   justify-content: center;
-
+  align-items: center;
   
-  /*background-color: #f4f4f4;    Sets the page background color 
-  font-family: Arial, sans-serif;  Sets the default font 
-  color: #333333;               Sets the default text color 
-  margin: 0;                   Removes default browser spacing 
-  padding: 0; */
 }
 
 
-.content-box {
-  display: grid;
-  background-color:var(--primary2);
+.centered-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:var(--primary3);
   width: 70% ;
-  place-content: center;
   height: 100vh;
 
 }
