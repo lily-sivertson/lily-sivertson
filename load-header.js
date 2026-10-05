@@ -21,28 +21,28 @@ function initializeNavButtons(){
 
     if (home_btn) {
         home_btn.addEventListener('click', () => {
-        window.location.href("index.html")
+        window.location.href="index.html"
     
         });
     }
 
     if (abt_btn) {
         abt_btn.addEventListener('click', () => {
-        window.location.href("about-me.html")
+        window.location.href="about-me.html"
         
         });
     }
 
       if (art_btn) {
         art_btn.addEventListener('click', () => {
-        window.location.href("art.html")
+        window.location.href="art.html"
         
         });
     }
 
       if (games_btn) {
         games_btn.addEventListener('click', () => {
-        window.location.href("games.html")
+        window.location.href="games.html"
         
         });
     }

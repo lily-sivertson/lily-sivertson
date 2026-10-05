@@ -34,6 +34,10 @@ h1, h2 {
 
 }
 
+.custom-header {
+  margin-bottom: 40px;
+}
+
 
 
 .handwritten {
@@ -66,7 +70,7 @@ h1, h2 {
   left:50%;
   transform: translateX(-50%);
   z-index: 0;
-  outline: white 2px ;
+  outline: 2px solid white ;
   
 
 }
