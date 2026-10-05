@@ -26,9 +26,13 @@ p {
   font-size: 1.25rem;
 }
 
-h1, h2 {
+h1 {
   font-family: "Hachimaru Pop", cursive;
 
+}
+
+h2 { 
+  font-family:"Hachimaru Pop", cursive;
 }
 
 .centered-box {
@@ -37,7 +41,7 @@ h1, h2 {
   justify-content: center;
   align-items: center;
   background-color:var(--primary3);
-  width: 70% ;
+  width: 60% ;
   height: 100vh;
   padding: 20px;
 
