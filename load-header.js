@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
 function initializeNavButtons(){
     const home_btn= document.querySelector("#home-button")
     const abt_btn= document.querySelector("#abt-button")
+    const art_btn= document.querySelector("#art-button")
+    const games_btn= document.querySelector("#games-button")
 
     if (home_btn) {
         home_btn.addEventListener('click', () => {
@@ -27,6 +29,20 @@ function initializeNavButtons(){
     if (abt_btn) {
         abt_btn.addEventListener('click', () => {
         window.location.href("about-me.html")
+        
+        });
+    }
+
+      if (art_btn) {
+        art_btn.addEventListener('click', () => {
+        window.location.href("art.html")
+        
+        });
+    }
+
+      if (games_btn) {
+        games_btn.addEventListener('click', () => {
+        window.location.href("games.html")
         
         });
     }
