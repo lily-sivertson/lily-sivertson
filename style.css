@@ -11,6 +11,7 @@
 
 /* Styles applied directly to HTML tags */
 body { 
+  display: flex;
   background-color: var(--primary-pink);
   align-items: center;
   justify-content: center;
@@ -25,14 +26,29 @@ body {
 
 
 .content-box {
+  display: grid;
   background-color:var(--primary2);
   width: 70% ;
-  justify-content: center;
-  align-items: center;
+  place-content: center;
   height: 100vh;
+
 }
 
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+  
+
+ 
+}
+
+.grid-child {
+  display: grid;
+  place-items: center;
+
+}
 /* classes */
 .flex-container {
   display: flex;
