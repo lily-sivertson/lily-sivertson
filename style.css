@@ -55,13 +55,14 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap:20px;
+  max-width: 90%;
   
 }
 
 .grid-child {
   display: grid;
   place-items: center;
-  padding: 20px;
+  padding: 10px;
 
 }
 /* 
