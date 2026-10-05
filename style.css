@@ -89,14 +89,15 @@ h1, h2 {
   padding: 10px;
 
 }
-/* 
+
 .flex-container {
   display: flex;
   background-color: var(--primary2);
-  width: 70%;
-  gap: 40px;
+  width: 90%;
+  gap: 15px;
   border-radius: 20px;
-  
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
@@ -105,9 +106,8 @@ h1, h2 {
   justify-content: center;
   flex: 1; 
   padding: 15px 15px 15px 15px;
-
 }
-*/
+
 
 .nav-button {
   background-color: var(--primary-pink);
