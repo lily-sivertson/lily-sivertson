@@ -15,6 +15,7 @@ body {
   background-color: var(--primary-pink);
   justify-content: center;
   align-items: center;
+  color: var(--primary2);
   
 }
 
@@ -27,6 +28,8 @@ body {
   background-color:var(--primary3);
   width: 70% ;
   height: 100vh;
+
+  text-align: center;
 
 }
 
