@@ -3,6 +3,7 @@
   --primary-pink: #ffa4b9;
   --primary2: #f1e7e7;
   --primary3: rgba(72, 62, 65, 0.916);
+  --solidprimary3: #654455;
   
 }
 
@@ -108,6 +109,16 @@ h1, h2 {
   padding: 15px 15px 15px 15px;
 }
 
+
+.card {
+  display:grid;
+  grid-template-columns: 3fr, 2fr;
+  gap:10px;
+  max-width: 90%;
+  border-radius: 15px;
+  background-color: var(--primary2);
+  color: var(--solidprimary3);
+}
 
 .nav-button {
   background-color: var(--primary-pink);
