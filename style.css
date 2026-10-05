@@ -120,6 +120,10 @@ h1, h2 {
   color: var(--solidprimary3);
 }
 
+.card-text {
+  color: var(--solidprimary3);
+}
+
 .nav-button {
   background-color: var(--primary-pink);
   color: white;
