@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding:0 ;
   display: flex;
-  background-color: var(--primary-pink);
+  background-image: url("placeholder-bg.jpg");
   justify-content: center;
   align-items: center;
   color: var(--primary2);
