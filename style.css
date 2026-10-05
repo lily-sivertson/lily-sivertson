@@ -40,16 +40,26 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:var(--primary3);
+  /*background-color:var(--primary3);*/
   box-sizing: border-box;
   width: 60%;
-  height: 100vh;
+  /*height: 100vh;*/
   padding: 20px;
 
   text-align: center;
 
 }
 
+.black-box {
+  background-color:var(--primary3);
+  box-sizing: border-box;
+  width: 60%;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+
+
+}
 
 .grid-container {
   display: grid;
