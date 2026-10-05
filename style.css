@@ -44,9 +44,10 @@ body {
 .grid-child {
   display: grid;
   place-items: center;
+  padding: 15px;
 
 }
-/* classes */
+/* 
 .flex-container {
   display: flex;
   background-color: var(--primary2);
@@ -64,6 +65,7 @@ body {
   padding: 15px 15px 15px 15px;
 
 }
+*/
 
 
 
