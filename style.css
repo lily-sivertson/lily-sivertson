@@ -67,6 +67,8 @@ h1, h2 {
   top:0;
   left:0;
   z-index: -1;
+  outline: white 2px ;
+  
 
 }
 
@@ -119,11 +121,12 @@ h1, h2 {
    2. CLASS SELECTORS 
    ---------------------------------------------------- */
 /* Used to style specific elements. In CSS, classes start with a dot (.) */
-.main-button {
-  background-color: #ff5722;
+.nav-button {
+  background-color: var(--primary-pink);
   color: white;
+  font-family: "Space Grotesk", sans-serif;
   padding: 10px 20px;          /* Space inside the button */
-  border: none;
+  border: var(--primary2) 2px;
   border-radius: 5px;          /* Rounds the corners */
   cursor: pointer;             /* Changes cursor to a hand on hover */
 }
@@ -140,8 +143,8 @@ h1, h2 {
    4. HOVER STATES & PSEUDO-CLASSES
    ---------------------------------------------------- */
 /* Changes styles when a user interacts with an element */
-.main-button:hover {
-  background-color: #e64a19;   /* Darkens the button when hovered */
+.nav-button:hover {
+  background-color: #e23b80;   /* Darkens the button when hovered */
 }
 
 
