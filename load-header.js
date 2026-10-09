@@ -19,32 +19,36 @@ function initializeNavButtons(){
     const abt_btn= document.querySelector("#abt-button")
     const art_btn= document.querySelector("#art-button")
     const games_btn= document.querySelector("#games-button")
+    const uiux_btn= document.querySelector("#uiux-button")
+    const contact_btn= document.querySelector("#contact-button")
 
     if (home_btn) {
         home_btn.addEventListener('click', () => {
         window.location.href="index.html"
-    
         });
     }
 
     if (abt_btn) {
         abt_btn.addEventListener('click', () => {
         window.location.href="about-me.html"
-        
         });
     }
 
       if (art_btn) {
         art_btn.addEventListener('click', () => {
         window.location.href="art.html"
-        
         });
     }
-
-      if (games_btn) {
-        games_btn.addEventListener('click', () => {
-        window.location.href="games.html"
-        
+    
+      if (uiux_btn) {
+        uiux_btn.addEventListener('click', () => {
+        window.location.href="uiux.html"
+        });
+    }
+    
+      if (contact_btn) {
+        contact_btn.addEventListener('click', () => {
+        window.location.href="contact.html"
         });
     }
 
