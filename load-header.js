@@ -42,13 +42,19 @@ function initializeNavButtons(){
     
       if (uiux_btn) {
         uiux_btn.addEventListener('click', () => {
-        window.location.href="uiux.html"
+        window.location.href="ui-ux.html"
         });
     }
     
       if (contact_btn) {
         contact_btn.addEventListener('click', () => {
         window.location.href="contact.html"
+        });
+    }
+    
+      if (games_btn) {
+        games_btn.addEventListener('click', () => {
+        window.location.href="games.html"
         });
     }
 
