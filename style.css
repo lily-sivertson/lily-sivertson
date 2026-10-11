@@ -26,6 +26,10 @@ body {
   
 }
 
+img {
+  border-radius: 8px;
+}
+
 ul {
   text-align: left;
   list-style-type: circle;
@@ -45,6 +49,9 @@ a {
 
 }
 
+video {
+  border-radius: 8px;
+}
 
 
 
@@ -154,7 +161,7 @@ h1, h2, h3 {
   background-color: var(--primary2);
   width: 90%;
   gap: 15px;
-  border-radius: px;
+  border-radius: 12px;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -216,15 +223,13 @@ h1, h2, h3 {
 .img-ss {
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 
 
 /* id selectors */
-#breadwinner-vid{
-  width: 100%;
-  height:auto;
-}
+
 
 #train-bash-img {
   width: 427px !important;
