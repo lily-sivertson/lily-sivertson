@@ -4,6 +4,7 @@
   --primary2: #f1e7e7;
   --primary3: rgba(72, 62, 65, 0.916);
   --solidprimary3: #654455;
+  --primaryteal: #25b3a9;
   
 }
 
@@ -123,7 +124,7 @@ h1, h2, h3 {
   background-color: var(--primary2);
   justify-items: center;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   color: var(--solidprimary3)
 
   /*outline: var(--primary2), 3px, dashed;*/
@@ -136,7 +137,7 @@ h1, h2, h3 {
   display: flex;
   width: 90%;
   gap: 15px;
-  border-radius: 20px;
+  border-radius: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -148,7 +149,7 @@ h1, h2, h3 {
   background-color: var(--primary2);
   width: 90%;
   gap: 15px;
-  border-radius: 20px;
+  border-radius: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -187,12 +188,9 @@ h1, h2, h3 {
 }
 
 .game-state {
-  display:inline-block;
-  border-radius: 4px;
-  color: var(--primary2);
+  color: var(--primaryteal);
   font-family: "Space Grotesk", sans-serif;
-  padding: 8px, 12px;
-  border: 2px solid var(--primary2);
+  text-transform: uppercase;
 }
 
 .bordered {
@@ -200,17 +198,19 @@ h1, h2, h3 {
   outline-offset: 6px;
 }
 
+.rounded-bordered {
+  border-radius: 10px;
+  outline: 3px dashed var(--primary-pink);
+  outline-offset: 6px;
+}
+
+
 
 
 
 
 /* id selectors */
 
-#pfp {
-  border-radius: 10px;
-  outline: 3px dashed var(--primary-pink);
-  outline-offset: 6px;
-}
 
 #train-bash-img {
   width: 427px !important;
