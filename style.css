@@ -25,6 +25,19 @@ body {
   
 }
 
+ul {
+  text-align: left;
+  list-style-type: circle;
+}
+
+li {
+  text-align: left;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+
+}
+
+
 img {
   max-width: 100%;
   height: auto;
@@ -107,10 +120,13 @@ h1, h2, h3 {
 
 .grid-child-gamecard{
   display: grid;
-  place-items: center;
+  background-color: var(--primary2);
+  justify-items: center;
   padding: 10px;
   border-radius: 8px;
-  outline: var(--primary2), 3px, dashed;
+  color: var(--solidprimary3)
+
+  /*outline: var(--primary2), 3px, dashed;*/
 }
 
 
@@ -176,9 +192,15 @@ h1, h2, h3 {
   color: var(--primary2);
   font-family: "Space Grotesk", sans-serif;
   padding: 8px, 12px;
-  border: solid, var(--primary2), 2px;
-
+  border: 2px solid var(--primary2);
 }
+
+.bordered {
+  outline: 3px dashed var(--primary-pink);
+  outline-offset: 6px;
+}
+
+
 
 
 
@@ -191,7 +213,7 @@ h1, h2, h3 {
 }
 
 #train-bash-img {
-  width: 427px;
+  width: 427px !important;
 }
 
 /*hover states */
