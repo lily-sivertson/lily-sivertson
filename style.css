@@ -25,6 +25,11 @@ body {
   
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 p {
   font-family: "Space Grotesk", sans-serif;
   font-size: 1.125rem;
@@ -165,12 +170,13 @@ h1, h2, h3 {
   cursor: pointer;             /* Changes cursor to a hand on hover */
 }
 
-.game-state-button {
-  border-radius: 5px;
+.game-state {
+  display:inline-block;
+  border-radius: 4px;
   color: var(--primary2);
   font-family: "Space Grotesk", sans-serif;
-  padding: 5px, 8px;
-  outline: solid, var(--primary2), 2px;
+  padding: 8px, 12px;
+  border: solid, var(--primary2), 2px;
 
 }
 
