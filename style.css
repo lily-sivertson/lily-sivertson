@@ -91,7 +91,38 @@ h1, h2, h3 {
 
 }
 
+/*gamecard is for the games that are show in the games page*/
+.grid-container-gamecard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  max-width: 95%;
+
+}
+
+.grid-child-gamecard{
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  outline: var(--primary2), 3px, dashed;
+}
+
+
+
+
 .flex-container {
+  display: flex;
+  width: 90%;
+  gap: 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+/*for featured cards on the the main page*/
+.card-flex-container {
   display: flex;
   background-color: var(--primary2);
   width: 90%;
@@ -110,7 +141,7 @@ h1, h2, h3 {
 }
 
 
-.card {
+/*.card {
   display:grid;
   grid-template-columns: 3fr, 2fr;
   gap:10px;
@@ -118,7 +149,7 @@ h1, h2, h3 {
   border-radius: 15px;
   background-color: var(--primary2);
   color: var(--solidprimary3);
-}
+}*/
 
 .card-text {
   color: var(--solidprimary3);
@@ -132,6 +163,15 @@ h1, h2, h3 {
   border: var(--primary2) 2px;
   border-radius: 5px;          /* Rounds the corners */
   cursor: pointer;             /* Changes cursor to a hand on hover */
+}
+
+.game-state-button {
+  border-radius: 5px;
+  color: var(--primary2);
+  font-family: "Space Grotesk", sans-serif;
+  padding: 5px, 8px;
+  outline: solid, var(--primary2), 2px;
+
 }
 
 
