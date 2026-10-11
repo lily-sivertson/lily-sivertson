@@ -178,7 +178,7 @@ h1, h2, h3 {
 .grid-container-scaled-left {
   display: grid;
   width: 95%;
-  grid-template-columns: auto minmax(0, 1fr); 
+  grid-template-columns: auto minmax(0%, 1fr); 
   gap: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -188,7 +188,7 @@ h1, h2, h3 {
 .grid-container-scaled-right {
   display: grid;
   width:95%;
-  grid-template-columns: minmax(0, 1fr) auto; 
+  grid-template-columns: minmax(0%, 1fr) auto; 
   gap: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
