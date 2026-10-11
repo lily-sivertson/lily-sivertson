@@ -38,11 +38,15 @@ li {
 
 }
 
+a {
+  color: var(--primaryteal);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.125rem;
 
-img {
-  max-width: 100%;
-  height: auto;
 }
+
+
+
 
 p {
   font-family: "Space Grotesk", sans-serif;
@@ -133,11 +137,12 @@ h1, h2, h3 {
 
 
 
+
+
 .flex-container {
   display: flex;
-  width: 90%;
-  gap: 15px;
-  border-radius: 15px;
+  width: 95%;
+  gap: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -149,7 +154,7 @@ h1, h2, h3 {
   background-color: var(--primary2);
   width: 90%;
   gap: 15px;
-  border-radius: 15px;
+  border-radius: px;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -159,8 +164,9 @@ h1, h2, h3 {
   align-items: center;
   justify-content: center;
   flex: 1; 
-  padding: 15px 15px 15px 15px;
+  padding: 12px 12px 12px 12px;
 }
+
 
 
 /*.card {
@@ -191,6 +197,8 @@ h1, h2, h3 {
   color: var(--primaryteal);
   font-family: "Space Grotesk", sans-serif;
   text-transform: uppercase;
+  font-size: 1rem;
+  margin: 0;
 }
 
 .bordered {
@@ -205,12 +213,18 @@ h1, h2, h3 {
 }
 
 
-
+.img-ss {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
 /* id selectors */
-
+#breadwinner-vid{
+  width: 100%;
+  height:auto;
+}
 
 #train-bash-img {
   width: 427px !important;
@@ -220,6 +234,7 @@ h1, h2, h3 {
 .nav-button:hover {
   background-color: #f45e9c;   /* Darkens the button when hovered */
 }
+
 
 
 
