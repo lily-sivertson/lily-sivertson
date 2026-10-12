@@ -152,8 +152,7 @@ h1, h2, h3 {
   flex-direction: column;
   box-sizing: border-box;
   background-color: var(--primary2);
-  justify-items: center;
-  align-items: start;
+  align-items: center;
   padding: 10px;
   border-radius: 10px;
   color: var(--solidprimary3)
