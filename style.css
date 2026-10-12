@@ -137,6 +137,7 @@ h1, h2, h3 {
 
 .grid-child-gamecard{
   display: grid;
+  box-sizing: border-box;
   background-color: var(--primary2);
   justify-items: center;
   padding: 10px;
@@ -148,6 +149,7 @@ h1, h2, h3 {
 
 .grid-child-listcard{
   display: grid;
+  box-sizing: border-box;
   background-color: var(--primary2);
   justify-items: center;
   align-items: start;
@@ -177,6 +179,7 @@ h1, h2, h3 {
 
 .grid-container-scaled-left {
   display: grid;
+  box-sizing: border-box;
   width: 95%;
   grid-template-columns: auto minmax(0%, 1fr); 
   gap: 15px;
@@ -187,6 +190,7 @@ h1, h2, h3 {
 
 .grid-container-scaled-right {
   display: grid;
+  box-sizing: border-box;
   width:95%;
   grid-template-columns: minmax(0%, 1fr) auto; 
   gap: 15px;
@@ -194,11 +198,7 @@ h1, h2, h3 {
   margin-bottom: 10px;
 }
 
-.flex-item {
-  /* This prevents the item from growing, allows it to shrink if needed, 
-     and sets its base size to the width of its content */
-  flex: 0 1 auto; 
-}
+
 
 /*for featured cards on the the main page*/
 .card-flex-container {
