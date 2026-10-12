@@ -148,7 +148,8 @@ h1, h2, h3 {
 }
 
 .grid-child-listcard{
-  display: grid;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   background-color: var(--primary2);
   justify-items: center;
