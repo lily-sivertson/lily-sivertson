@@ -63,6 +63,191 @@ h1, h2, h3 {
 
 
 
+.content-box {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.handwritten {
+  font-family: "Indie Flower", cursive;
+}
+.centered-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*background-color:var(--primary3);*/
+  box-sizing: border-box;
+  width: 60%;
+  /*height: 100vh;*/
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+
+
+  text-align: center;
+
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  max-width: 85%;
+  
+}
+
+.grid-child {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+
+}
+
+/*gamecard is for the games that are show in the games page*/
+.grid-container-gamecard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  max-width: 95%;
+
+}
+
+.grid-child-gamecard{
+  display: grid;
+  box-sizing: border-box;
+  background-color: var(--primary2);
+  justify-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--solidprimary3)
+
+  /*outline: var(--primary2), 3px, dashed;*/
+}
+
+.grid-child-listcard{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: var(--primary2);
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--solidprimary3)
+
+  /*outline: var(--primary2), 3px, dashed;*/
+}
+
+
+.no-margin-top{
+  margin-top: 0;
+}
+
+
+
+
+.flex-container {
+  display: flex;
+  width: 95%;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.grid-container-scaled-left {
+  display: grid;
+  box-sizing: border-box;
+  width: 95%;
+  grid-template-columns: auto minmax(0%, 1fr); 
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.grid-container-scaled-right {
+  display: grid;
+  box-sizing: border-box;
+  width:95%;
+  grid-template-columns: minmax(0%, 1fr) auto; 
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/*for featured cards on the the main page*/
+.card-flex-container {
+  display: flex;
+  background-color: var(--primary2);
+  width: 90%;
+  gap: 15px;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.flex-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1; 
+  padding: 12px 12px 12px 12px;
+}
+
+
+.card-text {
+  color: var(--solidprimary3);
+}
+
+
+.image-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
+  max-width: 95%;
+
+}
+
+.image-grid-col{
+  justify-content: center;
+}
+
+.nav-button {
+  background-color: var(--primary-pink);
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  padding: 10px 20px;          /* Space inside the button */
+  border: var(--primary2) 2px;
+  border-radius: 5px;          /* Rounds the corners */
+  cursor: pointer;             /* Changes cursor to a hand on hover */
+}
+
+.game-state {
+  color: var(--primaryteal);
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  /*margin: 0;*/
+}
+
+.bordered {
+  outline: 3px dashed var(--primary-pink);
+  outline-offset: 6px;
+}
+
+
+
+
+
 
 
 #home-display {

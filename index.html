@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lilita+One&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style2.css">
-    <script src="main-page.js" defer></script>
+    <script src="games.js" defer></script>
    
 </head>
 <body>
@@ -33,64 +33,33 @@
                 <img src= "pfp.png" width= "250" class="rounded-bordered">
             </div>
         </div>
+
+
+        <div id="games-section">
+            <h1> Games</h1>
+
+            <div class="grid-container-gamecard">
+                <div class="grid-child-gamecard">
+                    <p class="game-state">current project</p>
+                    <h2 class="no-margin-top"> Train Bash</h2>
+                    <img class="img-ss" src="train-bash.png">
+                    <p>An intergalactic multiplayer train demolition derby game. Battle against up to 3 friends, using abilities, bashing other trains, and riding rails to be the last train standing! </p>
+                    <button id="tb-button" class="nav-button">View Project</button>   
+                </div>
+
+                <div class="grid-child-gamecard">
+                    <p class="game-state">completed project</p>
+                    <h2 class="no-margin-top"> Breadwinner</h2>
+                    <img class="img-ss" src="breadwinner-thumbnail.png">
+                    <p>A short 2d pixel art platformer game where you play as a piece of bread trying to become a sandwich! </p>
+                    <button id="bw-button" class="nav-button">View Project</button>   
+                </div>
+            </div>
+        </div>
+
     </div>
 
-
-   
-  
         
-        
-
-
-        <p><br>--------------------------</p>
-
-        <h2>featured</h2>
-
-        <div class="card-flex-container">
-            <div class="flex-child">
-                <img src="breadwinner-thumbnail.png" width="427">
-               
-               
-            </div>
-
-            <div class="flex-child">
-                <h3 class="card-text">Breadwinner</h3>
-                <p class="card-text"> A short 2d pixel art platformer game where you play as a piece of bread trying to become a sandwich! </p>
-                <button type="button" id="view-breadwinner-button" class="nav-button">view project</button>
-            </div>
-        </div>
-
-        <div class="card-flex-container">
-            <div class="flex-child" width="427">
-                <img src="train-bash.png" id="train-bash-img" width="427">
-               
-            </div>
-
-            <div class="flex-child">
-                <h3 class="card-text">Train Bash!</h3>
-                <p class="card-text"> An intergalactic multiplayer train demolition derby game. Battle against up to 3 friends, using abilities, bashing other trains, and riding rails to be the last train standing!  </p>
-                <button type="button" id="view-trainbash-button" class="nav-button">view project</button>
-                
-            </div>
-        </div>
-        
-        <!--<div class="card">
-            <div class="grid-child">
-                <video width="427" height="240" controls>
-                <source src="breadwinner-github.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video>
-            </div>
-
-            <div class="grid-child">
-                <p> this is a short game I made </p>
-            </div>
-        </div>-->
-
-
-        
-    </div> 
-
 
     
     <script src="load-header.js"></script>
