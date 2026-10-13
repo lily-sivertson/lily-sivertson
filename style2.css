@@ -46,7 +46,7 @@ h1, h2, h3 {
 }
 
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   background-color: #333333bb;
