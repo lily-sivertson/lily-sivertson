@@ -1,0 +1,310 @@
+
+:root {
+  --primary-pink: #ffa4b9;
+  --primary2: #f1e7e7;
+  --primary3: rgba(72, 62, 65, 0.916);
+  --solidprimary3: #654455;
+  --primaryteal: #25b3a9;
+  
+}
+
+
+/*font-family: "Hachi maru Pop", sans-serif;*/
+
+/* Styles applied directly to HTML tags */
+body { 
+  margin: 0;
+  padding:0 ;
+  display: flex;
+  background-image: linear-gradient(#f67cab50,#e2458752), url("placeholder-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary2);
+  
+}
+
+img {
+  border-radius: 8px;
+}
+
+ul {
+  text-align: left;
+  list-style-type: circle;
+}
+
+li {
+  text-align: left;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+
+}
+
+a {
+  color: var(--primaryteal);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.125rem;
+
+}
+
+video {
+  border-radius: 8px;
+}
+
+
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.125rem;
+}
+
+h1, h2, h3 {
+  font-family: "Lilita One", sans-serif;
+
+}
+
+.custom-header {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.content-box {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.handwritten {
+  font-family: "Indie Flower", cursive;
+}
+.centered-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*background-color:var(--primary3);*/
+  box-sizing: border-box;
+  width: 60%;
+  /*height: 100vh;*/
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+
+
+  text-align: center;
+
+}
+
+.black-box {
+  background-color:var(--primary3);
+  width: 60vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  outline: 2px solid white ;
+  
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  max-width: 85%;
+  
+}
+
+.grid-child {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+
+}
+
+/*gamecard is for the games that are show in the games page*/
+.grid-container-gamecard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  max-width: 95%;
+
+}
+
+.grid-child-gamecard{
+  display: grid;
+  box-sizing: border-box;
+  background-color: var(--primary2);
+  justify-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--solidprimary3)
+
+  /*outline: var(--primary2), 3px, dashed;*/
+}
+
+.grid-child-listcard{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: var(--primary2);
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--solidprimary3)
+
+  /*outline: var(--primary2), 3px, dashed;*/
+}
+
+
+.no-margin-top{
+  margin-top: 0;
+}
+
+
+
+
+.flex-container {
+  display: flex;
+  width: 95%;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.grid-container-scaled-left {
+  display: grid;
+  box-sizing: border-box;
+  width: 95%;
+  grid-template-columns: auto minmax(0%, 1fr); 
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.grid-container-scaled-right {
+  display: grid;
+  box-sizing: border-box;
+  width:95%;
+  grid-template-columns: minmax(0%, 1fr) auto; 
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/*for featured cards on the the main page*/
+.card-flex-container {
+  display: flex;
+  background-color: var(--primary2);
+  width: 90%;
+  gap: 15px;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.flex-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1; 
+  padding: 12px 12px 12px 12px;
+}
+
+.rounded-iframe {
+  border-radius: 8px;
+  outline: 3px dashed var(--primary-pink);
+  outline-offset: 6px;
+}
+
+/*.card {
+  display:grid;
+  grid-template-columns: 3fr, 2fr;
+  gap:10px;
+  max-width: 90%;
+  border-radius: 15px;
+  background-color: var(--primary2);
+  color: var(--solidprimary3);
+}*/
+
+.card-text {
+  color: var(--solidprimary3);
+}
+
+
+.image-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
+  max-width: 95%;
+
+}
+
+.image-grid-col{
+  justify-content: center;
+}
+
+.nav-button {
+  background-color: var(--primary-pink);
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  padding: 10px 20px;          /* Space inside the button */
+  border: var(--primary2) 2px;
+  border-radius: 5px;          /* Rounds the corners */
+  cursor: pointer;             /* Changes cursor to a hand on hover */
+}
+
+.game-state {
+  color: var(--primaryteal);
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  /*margin: 0;*/
+}
+
+.bordered {
+  outline: 3px dashed var(--primary-pink);
+  outline-offset: 6px;
+}
+
+.rounded-bordered {
+  border-radius: 10px;
+  outline: 3px dashed var(--primary-pink);
+  outline-offset: 6px;
+}
+
+
+.img-ss {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+/* id selectors */
+
+
+#train-bash-img {
+  width: 427px !important;
+}
+
+/*hover states */
+.nav-button:hover {
+  background-color: #f45e9c;   /* Darkens the button when hovered */
+}
+
+
+
+
