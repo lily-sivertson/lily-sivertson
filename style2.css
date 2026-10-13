@@ -10,9 +10,24 @@
 }
 
 body {
+    margin:0;
     background-color: var(--primarybg);
     color: var(--primary2);
+    display:grid;
+    place-content: center;
+    min-height: 100vh;
 
+}
+
+
+.page-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -45,6 +60,11 @@ h1, h2, h3 {
 
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 .site-header {
   position: fixed;
   top: 0;
@@ -73,6 +93,8 @@ h1, h2, h3 {
 .handwritten {
   font-family: "Indie Flower", cursive;
 }
+
+
 .centered-box {
   display: flex;
   flex-direction: column;
@@ -111,7 +133,7 @@ h1, h2, h3 {
 /*gamecard is for the games that are show in the games page*/
 .grid-container-gamecard {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap:10px;
   max-width: 95%;
 
@@ -261,7 +283,7 @@ h1, h2, h3 {
   background-image: linear-gradient(#42404150,#834e6452), url("art-examples/sunset.png");
   background-size: cover;
   background-repeat: no-repeat;
-
+  background-position: center center;
 }
 
 #home-title {
