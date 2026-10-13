@@ -4,15 +4,52 @@
   --primary3: rgba(72, 62, 65, 0.916);
   --solidprimary3: #654455;
   --primaryteal: #25b3a9;
+  --primarybg:#2b2929;
+
   
 }
 
+body {
+    background-color: var(--primarybg);
+    color: var(--primary2);
+
+}
+
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.125rem;
+}
+
+ul {
+  text-align: left;
+  list-style-type: circle;
+}
+
+li {
+  text-align: left;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+
+}
+
+a {
+  color: var(--primaryteal);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.125rem;
+
+}
+
+
+h1, h2, h3 {
+  font-family: "Lilita One", sans-serif;
+
+}
 
 .site-header {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #3333338e;
+  background-color: #333333bb;
   color: #fff;
   z-index: 1000;
 }
@@ -25,8 +62,11 @@
 }
 
 
-#home-display {
 
+
+
+#home-display {
+  margin:0;
   display: flex;
   flex-direction: column;
   align-items: start;
