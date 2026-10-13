@@ -1,4 +1,3 @@
-
 :root {
   --primary-pink: #ffa4b9;
   --primary2: #f1e7e7;
@@ -6,29 +5,24 @@
   --solidprimary3: #654455;
   --primaryteal: #25b3a9;
   --primarybg:#2b2929;
+
   
 }
 
+body {
+    margin:0;
+    background-color: var(--primarybg);
+    color: var(--primary2);
+    display:grid;
+    place-content: center;
+    min-height: 100vh;
 
-/*font-family: "Hachi maru Pop", sans-serif;*/
-
-/* Styles applied directly to HTML tags */
-body { 
-  margin: 0;
-  padding:0 ;
-  display: flex;
-  background-image: linear-gradient(#f67cab50,#e2458752), url("placeholder-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  justify-content: center;
-  align-items: center;
-  color: var(--primary2);
-  
 }
 
-img {
-  border-radius: 8px;
+
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.125rem;
 }
 
 ul {
@@ -50,26 +44,68 @@ a {
 
 }
 
-video {
-  border-radius: 8px;
-}
-
-
-
-p {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 1.125rem;
-}
 
 h1, h2, h3 {
   font-family: "Lilita One", sans-serif;
 
 }
 
-.custom-header {
-  margin-top: 0;
-  margin-bottom: 40px;
+
+
+.site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333333bb;
+  color: var(--primary2);
+  z-index: 1000;
+  
 }
+
+.header-box {
+    width: 85%;
+    margin: 0 auto;
+    max-width: calc(1920px * 0.85);
+    display: flex;   
+     
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+.page-container {
+    width: 85%;
+    max-width: calc(1920px * 0.85);
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    
+    
+}
+
+.site-header nav a {
+    color: var(--primary2);
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1rem;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.thin-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 70%;
+    text-align: center;
+}
+
 
 .content-box {
   text-align: center;
@@ -81,6 +117,8 @@ h1, h2, h3 {
 .handwritten {
   font-family: "Indie Flower", cursive;
 }
+
+
 .centered-box {
   display: flex;
   flex-direction: column;
@@ -99,19 +137,7 @@ h1, h2, h3 {
 
 }
 
-.black-box {
-  background-color:var(--primary3);
-  width: 60vw;
-  height: 100vh;
-  position: fixed;
-  top:0;
-  left:50%;
-  transform: translateX(-50%);
-  z-index: 0;
-  outline: 2px solid white ;
-  
 
-}
 
 .grid-container {
   display: grid;
@@ -131,9 +157,9 @@ h1, h2, h3 {
 /*gamecard is for the games that are show in the games page*/
 .grid-container-gamecard {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap:10px;
-  max-width: 95%;
+  max-width: 100%;
 
 }
 
@@ -165,6 +191,18 @@ h1, h2, h3 {
 
 .no-margin-top{
   margin-top: 0;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -223,21 +261,6 @@ h1, h2, h3 {
   padding: 12px 12px 12px 12px;
 }
 
-.rounded-iframe {
-  border-radius: 8px;
-  outline: 3px dashed var(--primary-pink);
-  outline-offset: 6px;
-}
-
-/*.card {
-  display:grid;
-  grid-template-columns: 3fr, 2fr;
-  gap:10px;
-  max-width: 90%;
-  border-radius: 15px;
-  background-color: var(--primary2);
-  color: var(--solidprimary3);
-}*/
 
 .card-text {
   color: var(--solidprimary3);
@@ -279,6 +302,12 @@ h1, h2, h3 {
   outline-offset: 6px;
 }
 
+
+.img-ss{
+    width: 100%;
+    height: auto;
+}
+
 .rounded-bordered {
   border-radius: 10px;
   outline: 3px dashed var(--primary-pink);
@@ -286,26 +315,35 @@ h1, h2, h3 {
 }
 
 
-.img-ss {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+
+
+
+
+#home-display {
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  background-image: linear-gradient(#4e1f3776,#5c153298), url("art-examples/sunset.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-
-
-/* id selectors */
-
-
-#train-bash-img {
-  width: 427px !important;
+#home-title {
+  font-family: "Lilita One", sans-serif;
+  font-size: 3rem;
+  margin-left:7.5%;
+  color: var(--primary2);
+  margin-bottom: 0.5rem;
 }
 
-/*hover states */
-.nav-button:hover {
-  background-color: #f45e9c;   /* Darkens the button when hovered */
+#home-label {
+  font-family: "Lilita One", sans-serif;
+  margin-left:7.5%;
+  font-size: 2rem;
+  color: var(--primary-pink);
 }
-
-
-
-
