@@ -55,21 +55,27 @@ h1, h2, h3 {
 .site-header {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   background-color: #333333bb;
   color: var(--primary2);
   z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
 .header-box {
     width: 85%;
-    margin: 0 auto;
     max-width: calc(1920px * 0.85);
+    margin: 0 auto;
+    padding-left: 20px;
     display: flex;   
      
     justify-content: space-between;
     align-items: center;
+
 
 
 }
@@ -350,9 +356,10 @@ h1, h2, h3 {
   margin:0;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 70vh;
+  width:100vw;
   text-align: center;
   background-image: linear-gradient(#4e1f3776,#5c153298), url("art-examples/sunset.png");
   background-size: cover;
@@ -360,17 +367,34 @@ h1, h2, h3 {
   background-position: center center;
 }
 
+
+
+#home-display-textbox{
+  padding:0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 85%;
+  max-width: calc(1920px * 0.85);
+  text-align: left;
+}
+
 #home-title {
+  left: 0;
   font-family: "Lilita One", sans-serif;
   font-size: 3rem;
-  margin-left:7.5%;
+  
+  /*margin-left:7.5%;*/
   color: var(--primary2);
   margin-bottom: 0.5rem;
 }
 
+
 #home-label {
   font-family: "Lilita One", sans-serif;
-  margin-left:7.5%;
+  /*margin-left:7.5%;*/
   font-size: 2rem;
   color: var(--primary-pink);
 }
